@@ -4,7 +4,7 @@ WORKDIR /home/
 
 RUN git clone https://github.com/YimsuSon/djangoblog.git
 
-WORKDIR /home/pragmatic/
+WORKDIR /home/djangoblog/
 
 RUN pip install -r requirements.txt
 
