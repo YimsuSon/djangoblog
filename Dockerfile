@@ -12,6 +12,6 @@ RUN echo "SECRET_KEY=django-insecure-(bap-4ft5p(xcuyffc944atg6+cm3k)k$nfttgwh-+8
 
 RUN python manage.py migrate
 
-EXPOSE 8000
+EXPOSE 7000
 
-CMD ["python","manage.py","runserver","0.0.0.0:8000"]
+CMD ["python","manage.py","runserver","0.0.0.0:7000"]
